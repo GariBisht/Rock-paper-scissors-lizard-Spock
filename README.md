@@ -1,9 +1,9 @@
-#Garima Bisht
-#Peer-graded Assignment: Rock-paper-scissors-lizard-Spock
-# helper functions
-import random
+    #Garima Bisht
+    #Peer-graded Assignment: Rock-paper-scissors-lizard-Spock
+    # helper functions
+    import random
 
-def number_to_name(num):
+    def number_to_name(num):
     # fill in your code below
     # convert number to a name using if/elif/else
     # don't forget to return the result!
@@ -20,7 +20,7 @@ def number_to_name(num):
     return result 
 
     
-def name_to_number(name):
+    def name_to_number(name):
     # fill in your code below
     # convert name to number using if/elif/else
     # don't forget to return the result!
@@ -37,7 +37,7 @@ def name_to_number(name):
     return result
 
 
-def rpsls(name): 
+    def rpsls(name): 
     # fill in your code below
 
     # convert name to player_number using name_to_number
@@ -69,12 +69,12 @@ def rpsls(name):
 
 
 
- # test your code
-rpsls("rock")
-rpsls("Spock")
-rpsls("paper")
-rpsls("lizard")
-rpsls("scissors")
+    # test your code
+     rpsls("rock")
+    rpsls("Spock")
+    rpsls("paper")
+    rpsls("lizard")
+    rpsls("scissors")
 
 
 
