@@ -67,13 +67,17 @@ def rpsls(name):
         print("Computer wins!")
     print("")    
 
-    
-# test your code
+
+
+ # test your code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
+
+
+
 
 
 
